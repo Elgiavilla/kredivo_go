@@ -1,0 +1,59 @@
+hash: 6861f7f5b1c9d62a5e40752ec64823bd152ad0014b3b81a1d671dae3861a6815
+updated: 2019-05-08T11:11:49.5867+07:00
+imports:
+- name: github.com/biezhi/gorm-paginator
+  version: 7a5c8ed20334610e9560e561a21ee4f3fc66bef4
+  subpackages:
+  - pagination
+- name: github.com/go-sql-driver/mysql
+  version: 72cd26f257d44c1114970e19afddcd812016007e
+- name: github.com/jinzhu/gorm
+  version: 5c0f6716ad1e3a6b6a8afa56afeff747032a6926
+  subpackages:
+  - dialects/mysql
+- name: github.com/jinzhu/inflection
+  version: 04140366298a54a039076d798123ffa108fff46c
+- name: github.com/konsorten/go-windows-terminal-sequences
+  version: f55edac94c9bbba5d6182a4be46d86a2c9b5b50e
+- name: github.com/labstack/echo
+  version: 5d2c33ad5dbb78540a56dd08d09d91f991bc3156
+- name: github.com/labstack/gommon
+  version: 82ef680aef5189b68682876cf70d09daa4ac0f51
+  subpackages:
+  - color
+  - log
+- name: github.com/mattn/go-colorable
+  version: 3a70a971f94a22f2fa562ffcc7a0eb45f5daf045
+- name: github.com/mattn/go-isatty
+  version: c1975dc15c1d481e8da23f6ed313bb071136b98f
+- name: github.com/sirupsen/logrus
+  version: 8bdbc7bcc01dcbb8ec23dc8a28e332258d25251f
+- name: github.com/valyala/bytebufferpool
+  version: cdfbe9377474227bb42120c1e22fd4433e7f69bf
+- name: github.com/valyala/fasttemplate
+  version: 8b5e4e491ab636663841c42ea3c5a9adebabaf36
+- name: golang.org/x/crypto
+  version: e1dfcc566284e143ba8f9afbb3fa563f2a0d212b
+  subpackages:
+  - acme
+  - acme/autocert
+- name: golang.org/x/net
+  version: f4e77d36d62c17c2336347bb2670ddbd02d092b7
+  subpackages:
+  - idna
+- name: golang.org/x/sys
+  version: ecd444e8653b66b20d764e53c22e3e615eea5fae
+  subpackages:
+  - unix
+- name: golang.org/x/text
+  version: 342b2e1fbaa52c93f31447ad2c6abc048c63e475
+  subpackages:
+  - secure/bidirule
+  - transform
+  - unicode/bidi
+  - unicode/norm
+- name: google.golang.org/appengine
+  version: 54a98f90d1c46b7731eb8fb305d2a321c30ef610
+  subpackages:
+  - cloudsql
+testImports: []
